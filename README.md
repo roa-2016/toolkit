@@ -4,6 +4,8 @@ This is the Roa Toolkit repo, all useful commands, tricks, shorcuts and little h
 
 This repo should also be a base for building on a solid understanding of typical git workflow.
 
+The contents of this toolkit will be included in the Roa Gitbook, under the 'toolkit' section.
+
 ## Step one: Branching
 When you find a shortcut and want to share it, create a new branch, add it to the 'toolkit' section where you think suites best and push it up to github.
 
