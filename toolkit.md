@@ -23,7 +23,7 @@ Copy whole lines of code:
 'cmd + shft + d'
 
 ## Clean up node_modules folders
-A few weeks ago I discovered over 6Gb worth of node modules on my computer.  These folders build up, and you forget about them.  You can git rid of them all one command line action.  First navigate to your workspace/ directory, where you keep all you projects.  The: `find . -name "node_modules" -exec rm -rf "{}" \;` will recursively search and delete files and fodlers called 'node_modules'.  Use with caution. 
+A few weeks ago I discovered over 6Gb worth of node modules on my computer.  These folders build up, and you forget about them.  You can git rid of them all one command line action.  First navigate to your workspace/ directory, where you keep all your projects.  The command: `$ find . -name "node_modules" -exec rm -rf "{}" \;` will recursively search and delete files and fodlers called 'node_modules'.  
 
 
 
