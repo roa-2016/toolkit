@@ -25,5 +25,11 @@ Copy whole lines of code:
 ## Clean up node_modules folders
 A few weeks ago I discovered over 6Gb worth of node modules on my computer.  These folders build up, and you forget about them.  You can git rid of them all one command line action.  First navigate to your workspace/ directory, where you keep all your projects.  The command: `$ find . -name "node_modules" -exec rm -rf "{}" \;` will recursively search and delete files and fodlers called 'node_modules'.  
 
+## Save on focus loss
+I had been using the sublimetext 3 package 'autosave', but saving on every tiny change had been interfering with the handy dropdown thing in sublime. This is way cooler and less annoying:
+
+Save "save_on_focus_lost": true to preferences -> setting-user
+
+
 
 
